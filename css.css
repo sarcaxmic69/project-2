@@ -1,0 +1,24 @@
+body{
+    background-color: #B2A4FF;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color:  #EB1D36;
+    font-size: 100px;
+    margin-bottom: 6%;
+}
+p{
+    font-size: 40px;
+}
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.design{
+    padding-bottom: 50px;
+}
+.btn{
+    color: white;
+}
