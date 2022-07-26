@@ -9,15 +9,12 @@ var img2=document.querySelectorAll("img")[1];
 img2.setAttribute("src", l);
 if(n>m){
 document.getElementById("#title").innerText = "Player1 wins";
-document.querySelector("h2").classList.add("design");
 }
 else if(n<m){
 document.getElementById("#title").innerText = "Player2 wins"; 
-document.querySelector("h2").classList.add("design");
 }
 else{
 document.getElementById("#title").innerText = "Draw!"; 
-document.querySelector("h2").classList.add("design");
 }
 }
 document.getElementById("reset").onclick = function () {
